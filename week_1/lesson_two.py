@@ -1,0 +1,7 @@
+print("My name is Aldrin")
+print("I am 18 years old")
+print("I come from Kiambu County")
+print("I love listening to music,drawing and watching movies")
+print("---------------")
+print("***************")
+print("###############")
