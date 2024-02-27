@@ -25,15 +25,15 @@ name="ALDRIN"
 print(name)
 print(name.lower()) #converts strings to lowercase
 
-town=" Naivasha "
+town="       Naivasha "
 print(town)
 print("\t") #used to print a new tab
 print(town.strip())
 
 #It is possible to add two strings
-f_name="Aldrin"
-s_name="Muchiri"
-full_name=f_name+s_name
+f_name = "Aldrin"
+s_name = "Muchiri"
+full_name = f_name + s_name
 print(full_name)
 
 #REPLACING A CHARACTER
@@ -48,3 +48,26 @@ age=30
 height=1.1
 
 print("I am {0} years old and {1} metres tall " .format(age,height) )
+
+# printing a string
+activity = "dancing"
+print("my hobby is %s"%(activity))
+
+# finnding the number of strings in a character
+name = "Aldrin"
+print(len(name))
+
+print(f"My full name is {name}")
+
+# printing a float
+height = 1.23490874
+print("my height is %5.3f"%(height))
+
+# printing an integer
+age= 32
+print("my height is %d"%(age))
+
+school = "Engineering"
+course = "Electrical"
+print("I am studying {course} in the school of {school})".format(course = "medicine",school="human sciences"))
+

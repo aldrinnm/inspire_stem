@@ -2,8 +2,16 @@
 # date 26/02/2024
 # name: Aldrin
 
-number = -2
+x = 1
 
-for i in range(1,number):
-    while i < number:
-        print(i)
+while x <= 20 :
+    
+
+    #if x == 5:
+    #    break
+
+    if x == 6:
+        continue
+    x = x + 1
+    print(x)
+
