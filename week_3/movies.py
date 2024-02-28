@@ -2,6 +2,7 @@ movies = ["popes exorcist","mirrors","the boy","the nun","IT"]
 print(movies)
 
 movies.pop()
+movies.pop()
 print("\n")
 print(movies)
 
@@ -13,6 +14,6 @@ movies.reverse()
 print("\n")
 print(movies)
 
-movies.count("the nun")
+movies.count(0)
 print("\n")
-print(movies)
+print(len(movies))
