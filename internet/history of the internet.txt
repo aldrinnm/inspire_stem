@@ -9,6 +9,7 @@
 1980s: Expansion and Domain Name System (DNS)
 
 - The 1980s saw the expansion of the internet beyond military and academic circles to include commercial entities and the general public. The Domain Name System (DNS) was introduced to replace numeric IP addresses with more human-readable domain names. This made it easier for people to navigate the growing network.
+
 1990s: World Wide Web (WWW) and Commercialization
 
 - Tim Berners-Lee developed the World Wide Web in 1989 and introduced the first web browser in 1990. The WWW made the internet more accessible to the public by providing a user-friendly interface. In the mid-1990s, the internet experienced rapid commercialization, leading to the emergence of online services, e-commerce, and the dot-com boom.
@@ -16,6 +17,7 @@
 2000s: Broadband and Social Media
 
 - The 2000s saw a widespread adoption of broadband internet, providing faster and more reliable connections. Social media platforms like Facebook, Twitter, and YouTube emerged, changing the way people interacted online and sharing information.
+
 2010s: Mobile Internet and Cloud Computing
 
 - The proliferation of smartphones and mobile devices in the 2010s led to a significant shift towards mobile internet usage. Cloud computing services became prevalent, allowing users to store and access data remotely. Streaming services, such as Netflix and Spotify, gained popularity.
