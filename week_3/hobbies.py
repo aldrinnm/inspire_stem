@@ -1,4 +1,4 @@
-hobbies = ("watching movies","drawing","listening to music","taking nature walks")
+hobbies = ("watching movies","drawing","listening to music")
 print(hobbies)
 
 favourite_car = {"make":"BMW","series":"X8","year":"2021","colour":"brown"}
