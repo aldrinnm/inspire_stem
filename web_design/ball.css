@@ -1,0 +1,30 @@
+section{
+    background-color: cornflowerblue;
+    color: darkgrey;
+    margin: 100px;
+    padding: 60px;
+}
+img {
+    width:15cm;
+    height:7cm;}
+.header-1{
+    color: brown;
+}
+.ball {
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#bouncing {
+    position: absolute;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
