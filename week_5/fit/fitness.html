@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fitness Website</title>
+    <link rel="stylesheet" href="fit.css">
+    <!--Font awesome icons-->
+    <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--favicon-->
+    <link rel="icon" href="logo.jpeg"  sizes="16x16">
+</head>
+<body>
+    <!--Entire page-->
+    <div class="container" id="content"> 
+        <!--Header content-->
+        <div class="header" id="content-header">
+          <header>
+               <div class="logo">
+                 <a href="#"><img src="logo.jpeg"></a>
+               </div>
+               <h1>PLANET FITNESS</h1>
+             <!--Navigation bar in header-->
+             <nav>
+                 <ul>
+                    <li><a href="equipment.html">Equipment</a></li>
+                    <li><a href="online_workout.html">Online workout</a></li>
+                    <li><a href="nutrition.html">Nutrition</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="merch.html">Merch</a></li>
+                 </ul>
+                 <!--log in button-->
+                  <div id="button" >
+                     <a  href = "log.html"><button >LOG IN</button></a>
+                  </div>
+              </nav>
+          </header> 
+       </div>
+      <!--End of header content-->
+
+     <div class="home" id="welcome">
+         <h2>Welcome to My Fitness Website!</h2>
+         <p>Get fit, stay healthy!</p>
+     </div>
+
+     <section id="about">
+         <h2>About Us</h2>
+         <p>we are dedicated to making your life much healthier,join us in our journey together</p>
+     </section>
+
+     <section id="services">
+         <h2>Our Services</h2>
+         <ul>
+             <li>Personal Training</li>
+             <li>Group Classes</li>
+             <li>Nutrition Counseling</li>
+             <li>Online Workouts</li>
+         </ul>
+     </section>
+       
+     <!--Our contacts-->
+     <div class="contact" id="contact">
+         <h2>Contact Us</h2>
+         <p>Got any questions? Go ahead and ask! Subscribe to learn more!</p>
+         <form>
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" required>
+             <br>
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" required>
+             <br>
+             <label for="message">Message:</label>
+             <textarea id="message" name="message" required></textarea>
+             <br>
+             <a href="#" onclick="toggle()">Send</a>
+          </form>
+          <div id="popup">
+            <h2>Thank You!</h2>
+            <p>Thank you, you will get a respose through your mail.</p>
+            <a href="#" onclick="toggle()">Close</a>
+          </div>
+
+          <br>
+         <div class="contact-info">
+             <p><i class="fa fa-envelope" style="color:  #11df29;"></i>  PlanetFitness22@gmail.com</p>
+             <p><i class="fa fa-phone" style="color:  #11df29;"></i>  tel:+1234567890</p>
+             <p><i class="fa fa-map-marker" style="color:  #11df29;"></i>  Somewhere</p>
+         </div>
+           
+         <!--Social media icons-->
+         <div class="social">
+             <div class="button">
+                  <p><a href="#"><i class="fa-brands fa-x-twitter" style="color:  #11df29;"></i>twitter</i></a></p>
+                  <p><a href="#"><i class="fa-brands fa-facebook" style="color: #11df29;" ></i>facebook</i></a></p>
+                  <p><a href="https://www.instagram.com/baldbold_fitness/"><i class="fa-brands fa-instagram" style="color: #11df29;"></i>instagram</a></p>
+             </div>
+         </div>
+         
+     </div>
+
+      <footer>
+         <p>&copy; 2024 My Fitness Website. All rights reserved.</p>
+      </footer>
+    
+      <script src="script.js"></script>
+    </div>
+    <script>
+        function toggle(){
+            var blur = document.getElementById('contact');
+            blur.classList.toggle('active')
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active')
+        }
+    </script>
+
+</body>
+</html>

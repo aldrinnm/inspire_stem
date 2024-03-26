@@ -1,0 +1,145 @@
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(2, 2, 44, 0.957);
+    color:aliceblue
+    
+}
+
+header {
+    background:linear-gradient(45deg, blue,purple);
+    color: #fff;
+    text-align: center;
+    padding: 20px;   
+    padding-bottom: 60px; /space for button/
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav :hover {
+    color: grey;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/logo/
+
+.logo a{
+    float: left;
+}
+.logo img{
+    width:170px;
+}
+
+#button{
+    background:transparent;
+    width:70px ;
+    height:20px ;
+    float: right;
+    
+}
+#button:hover{
+    color: rgb(26, 255, 0);
+}
+
+/socials/
+.social a{
+    padding: 4px;
+    width: 30px;
+    font-size: none;
+    float:none;
+    
+}
+.social a .fab{
+ padding:20px;
+ font-size:30px;
+ width: 50px;
+ text-align: center;
+ text-decoration: none;
+
+}
+
+.fa-twitter{
+    background:transparent;
+    color: white;
+}
+
+.fa-instagram{
+    background: transparent;
+    color: white;
+}
+
+.fa-facebook-f{
+    background: lightskyblue;
+    color: white;
+}
+
+
+footer {
+    background-color:rgb(200, 76, 224);
+    padding: 30px 30px 0 30px;
+    width: 100%;
+    color: #fefcff;
+    text-align: center;
+    padding: 10px 0;
+}
+#block{
+    height: 200px;
+    width: 300px;
+    border: solid;
+    border-color: blue;
+    margin-left: 900px;
+}
+a{
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background: rgb(42, 42, 88);
+    transition: 1s;
+    background-color: rgb(42, 42, 88);
+    border-radius: 10px;
+}
+a:hover{
+    transition: 1s;
+    background: rgb(58, 57, 57);
+}
+
+#popup{
+    position: fixed;
+    top: 60%;
+    left: 23%;
+    transform: translate(-50% -50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, .30);
+    background: purple;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5s;
+}
