@@ -314,7 +314,7 @@ a:focus {
 
 .header .content-inner {
     padding: 100px 30px;
-    background: url(C:\Users\njoki\OneDrive\Desktop\inspire_stem\resume-production\img\images.jpg) right bottom no-repeat;
+    background: url(../img/images.jpg) right bottom no-repeat;
     background-size: contain;
 }
 
